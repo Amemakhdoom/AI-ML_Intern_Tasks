@@ -1,22 +1,30 @@
-# Task 1: Exploring & Visualizing a Dataset
+# AI/ML Internship Task 1: Exploring and Visualizing a Simple Dataset
 
-## Overview
-This folder contains the first AI/ML internship task focused on exploring and visualizing datasets.
+## Task Objective
+Learn how to load, inspect, and visualize a dataset to understand data trends, distributions, and patterns.
 
-## Contents
-- `Exploring_&_Visualizing_a_Dataset_.ipynb` - Jupyter notebook with data exploration and visualization
+## Dataset Used
+Iris Dataset (CSV format, can be loaded via seaborn or downloaded)
 
-## Description
-This task involves loading a dataset, performing exploratory data analysis (EDA), and creating meaningful visualizations to understand data patterns and distributions.
+## Instructions Followed
+- Loaded the dataset using **pandas**
+- Printed the **shape**, column names, and the first few rows using `.head()`
+- Used `.info()` and `.describe()` to generate summary statistics
+- Visualized the dataset using **matplotlib** and **seaborn**:
+  - Scatter plots to show relationships between features
+  - Histograms to show value distributions
+  - Box plots to identify outliers
 
-## Technologies Used
-- Python
-- Pandas
-- Matplotlib
-- Seaborn
-- Jupyter Notebook
+## Models Applied
+No predictive model applied in this task; focus was on **data exploration and visualization**.
 
-## How to Run
-1. Ensure you have Jupyter Notebook installed
-2. Open the `.ipynb` file in Jupyter
-3. Run the cells to see the analysis and visualizations
+## Key Results and Findings
+- Successfully loaded and explored the Iris dataset
+- Identified relationships between features (e.g., sepal length vs petal length)
+- Detected distribution patterns and potential outliers using histograms and box plots
+- Developed foundational skills in data inspection, descriptive statistics, and visualization with pandas, matplotlib, and seaborn
+
+## Skills Practiced
+- Data loading and inspection with pandas
+- Descriptive statistics and data exploration
+- Basic plotting and visualization using matplotlib and seaborn
